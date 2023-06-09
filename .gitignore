@@ -1,0 +1,8 @@
+*.pyc
+*.npy
+temp/
+data/
+__pycache__/
+.pytest_cache/
+_build/
+.mypy_cache/
