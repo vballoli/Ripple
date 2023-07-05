@@ -47,5 +47,4 @@ def test_mve():
     max_results = mve(max_points, return_risk=True)[0].aleatoric.mean(-1)
     min_results = mve(min_points, return_risk=True)[0].aleatoric.mean(-1)
 
-    print(max_results.mean(), min_results.mean())
     assert max_results.mean() > min_results.mean()
